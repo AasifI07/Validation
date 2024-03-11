@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins';
+
+}
+
+.heading h1 {
+
+  font-size: 40px;
+  border-radius: 20px;
+}
+
+.heading h4 {
+  color: #808080;
+  font-weight: 600px;
+  font-size: 20px;
+  margin: 16px;
+}
+
+.input-data {
+  border-radius: 10px;
+  width: 469px;
+  height: 40px;
+  border: 1px solid #CDCDCD;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.left-side {
+  height: 100vh;
+  width: 50%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.right-side {
+  height: 100vh;
+  width: 50%;
+  background-color: #000;
+  background: linear-gradient(270deg, #7A03C8 0%, #A32ACE 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.main-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px;
+}
+
+.con {
+  width: 100%;
+}
+
+.id {
+  color: #A32ACE;
+  font-size: 16px;
+  text-align: end;
+  margin: 16px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.Submit {
+  width: 469px;
+  height: 50px;
+  background: linear-gradient(270deg, #7A03C8 0%, #A32ACE 100%);
+  border-radius: 10px;
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  align-items: center;
+  margin: 20px;
+  cursor: pointer;
+}
+.Submit:hover {
+  background: linear-gradient(270deg, #a54de0 0%, #13011a 100%);
+}
+
+.img {
+  display: flex;
+  width: 345.853px;
+  height: 161.113px;
+  justify-content: center;
+  align-content: center;
+}
+.error{
+ color: red;
+text-align: center;
+}
